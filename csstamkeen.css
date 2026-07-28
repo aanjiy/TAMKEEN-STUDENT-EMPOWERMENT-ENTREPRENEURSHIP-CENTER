@@ -871,6 +871,7 @@ html{
 }
 
 
+
 @media (max-width: 768px) {
 
     body {
@@ -908,9 +909,37 @@ html{
   .nav-toggle {
     display: block;
   }
+  .logo-wrapper{
+    padding: 70px;
 
-
+  }
+ .container, 
+  .container-nav, 
+  .container-courses, 
+  .container-reviews, 
+  .container-FAQ, 
+  .container-journey, 
+  .container-footer,
+  .container-cta,
   .hero-row {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+
+ .nav-toggle i {
+    width: 28px;
+    height: 28px;
+    color: #007973;
+  }
+ .hero-text,
+  .hero-text p,
+  .hero-text h1 {
+    text-align: center;
+  }
+
+
+ .hero-row {
     flex-direction: column;
     text-align: center;
   }
