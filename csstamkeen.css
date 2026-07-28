@@ -11,13 +11,17 @@ body {
 }
 
 .navbar {
-    
-    position:fixed;
-    top: 15px;
-    z-index: 100;
-    width: 1200px;
+    position: fixed !important;
+    top: 15px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: 92% !important;
+    max-width: 1200px !important;
+    z-index: 999 !important;
     box-shadow: 0 10px 20px rgb(74, 155, 143);
     border-radius: 25px;
+    background-color: #ffffff !important;
+    overflow: visible;
 }
 
 .container-nav {
