@@ -20,7 +20,7 @@ body {
     z-index: 999 !important;
     box-shadow: 0 10px 20px rgb(74, 155, 143);
     border-radius: 25px;
-    background-color: #ffffff !important;
+    background-color: #ffffff ;
     overflow: visible;
 }
 
@@ -1023,10 +1023,10 @@ html{
 
 
 body.dark {
-    background-color: #12413d;
+    background-color: #0d2c29;
     background-image: 
-        radial-gradient(circle at 15% 10%, rgba(0, 121, 115, 0.25) 0%, transparent 40%),
-        radial-gradient(circle at 85% 90%, rgba(0, 121, 115, 0.2) 0%, transparent 35%);
+        radial-gradient(circle at 15% 10%, rgba(1, 251, 238, 0.25) 0%, transparent 40%),
+        radial-gradient(circle at 85% 90%, rgba(0, 255, 242, 0.2) 0%, transparent 35%);
 }
 
 body.dark .navbar {
@@ -1081,13 +1081,11 @@ body.dark .faq-answer p {
 
 body.dark .feature-title,
 body.dark .courses-title,
-body.dark .review-name {
+body.dark .review-name ,
+body.dark .footer-link {
     color: #ffffff;
 }
 
-body.dark .footer {
-    background-color: #0a1519;
-}
 body.dark .nav-cta{
     background-color: #008780;
 }
