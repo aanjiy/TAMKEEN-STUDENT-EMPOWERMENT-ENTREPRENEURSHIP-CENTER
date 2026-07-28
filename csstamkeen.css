@@ -942,18 +942,17 @@ html{
     text-align: center;
   }
 
-
- .hero-row {
-    flex-direction: column;
-    text-align: center;
-  }
-
   .a2 {
     font-size: 2rem;
   }
 
-  .logo-3d {
-    width: 220px; 
+   .logo-3d {
+    width: 380px !important;
+  }
+
+  .hero-row {
+    flex-direction: column;
+    text-align: center;
   }
 
 
